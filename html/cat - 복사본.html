@@ -1,0 +1,99 @@
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>고양이 분양</title>
+<style>
+	a {
+		text-decoration:none;
+		color:white;
+	}
+	
+	div {
+		width:400px;
+		height:300px;
+	}
+	
+	#section > div{
+		
+	}
+	
+	header ul {
+		display:flex;
+		list-style:none;
+		background:green;
+		color:white;
+		font-size:20px;
+		justify-content:center;
+	}
+	
+	header ul li {
+		margin:20px;
+	}
+	
+	#cat {
+		width:400px;
+	}
+	
+	@media all and (min-width:820px) and (max-width:1230px){
+		body{
+			background-size:cover;
+		}
+		#section{
+			width:49%;
+		}
+	}
+	
+	@media all and (min-width:1230px){
+		body{
+			background-size:cover;
+		}
+		#section{
+			width:33%;
+		}
+	}
+</style>
+</head>
+<body>
+	<div>
+		<header>
+			<div>
+				<ul>
+					<li><a href="#">사이트 소개</a></li>
+					<li><a href="#">고양이 분양</a></li>
+					<li><a href="#">고객센터</a></li>
+					<li><a href="#">고양이 자랑</a></li>
+				</ul>
+			</div>
+		</header>
+		<section id="section">
+			<div>
+				<img src="image/cat1.jpg" id="cat">
+					<ul>
+						<li>묘종 : 깜찍한 고양이</li>
+						<li>성별 : 여자</li>
+						<li>나이 : 2살</li>
+						<li>분양가 : 상담 후 협의</li>
+					</ul>
+			</div>
+			<div>
+				<img src="image/cat3.jpg" id="cat">
+					<ul>
+						<li>묘종 : 새끼고양이들</li>
+						<li>성별 : 여자</li>
+						<li>나이 : 4개월</li>
+						<li>분양가 : 상담 후 협의</li>
+					</ul>
+			</div>
+			<div>
+				<img src="image/cat5.jpg" id="cat">
+					<ul>
+						<li>묘종 : 귀여운 고양이</li>
+						<li>성별 : 남자</li>
+						<li>나이 : 8개월</li>
+						<li>분양가 : 상담 후 협의</li>
+					</ul>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

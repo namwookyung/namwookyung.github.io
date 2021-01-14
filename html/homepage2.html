@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>구인의뢰</title>
+<style>
+	a {
+		text-decoration: none;
+	}
+	a:link, a:visited {
+		color: black;
+	}
+	#container {
+		width: 100%;
+		margin: 0 auto;
+	}
+	header {
+		width: 90%;
+		height: 150px;
+		margin: 0;
+	}
+	header>div {
+		display: inline-block;
+		font-size:20px;
+		font-weight:bold;
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		width:100%;
+		margin-left:5%;
+	}
+	section {
+		text-align:center;
+	}
+	
+	section div {
+		background:url(image/fox.jpg) no-repeat;
+		background:cover;
+		width:100%;
+		height:130px;
+		font-size:50px;
+		padding-top:50px;
+	}
+	section img {
+		width:100%;
+	}
+	
+	#d {
+		margin: 0 auto;
+		width:1000px;
+	}
+	
+	ul {
+	}
+	
+	figure {
+		margin:auto;
+	}
+	
+	#tb1 {
+		border-collapse:collapse;
+		width:1000px;
+		height:250px;
+	}
+	#tb1 tr {
+		border:1px solid gray;
+	}
+	#tb1 td {
+		border:1px solid gray;
+		padding-left:5px;
+	}
+	.tdcolor {
+		background-color:#D9E5FF;
+		font-size:16px;
+		text-align:center;
+		padding:5px;
+	}
+	
+	#tb2 {
+		border-collapse:collapse;
+		width:1000px;
+		height:470px;
+	}
+	#tb2 tr {
+		border:1px solid gray;
+	}
+	#tb2 td {
+		border:1px solid gray;
+		padding-left:5px;
+	}
+	.span {
+		color:gray;
+		font-size:13px;
+	}
+	
+	.but1 {
+		background-color:orange;
+		color:white;
+		border:none;
+		width:150px;
+		height:50px;
+		font-size:20px;
+	}
+	
+	.but2 {
+		background-color:gray;
+		color:white;
+		border:none;
+		width:150px;
+		height:50px;
+		font-size:20px;
+	}
+	
+	@media all and (min-width:1000px) and (max-width:1499px) {
+		
+	}
+	@media all and (min-width:1500px) {
+		
+	}
+	
+</style>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<div>
+				<div><a href="http://namwookyung.dothome.co.kr/homepage.html"><img src="image/icon4.jpg" class="li1"></a></div>
+				<div><a href="#">학교소개</a></div>				
+				<div><a href="#">모집과정</a></div>
+				<div><a href="#">과정소개</a></div>
+				<div><a href="http://namwookyung.dothome.co.kr/homepage1.html">입학상담</a></div>
+				<div><a href="http://namwookyung.dothome.co.kr/homepage2.html">구인의뢰</a></div>
+				<div><a href="http://namwookyung.dothome.co.kr/homepage3.html">자료실</a></div>
+				<div><a href="http://namwookyung.dothome.co.kr/homepage4.html">학교소식</a></div>
+			</div>
+		</header>
+		
+		
+		<section>
+			<div>
+				구인의뢰
+			</div>
+			
+		</section><br>
+		
+		<div id="d">
+			<figure>
+			<figcaption><class="font">◎회사 기본정보 (취업담당자만 볼 수 있습니다.)</figcaption>
+				<p><table id="tb1" align="center">
+					<tr>
+						<td class="tdcolor">신청일자</td>
+						<td><input size="15px"></td>
+						<td class="tdcolor">마감일자</td>
+						<td><input size="15px"></td>
+						<td class="tdcolor">사업체명</td>
+						<td><input size="15px"></td>
+					</tr>
+					<tr>
+						<td class="tdcolor">업　　종</td>
+						<td><input size="15px"></td>
+						<td class="tdcolor">대 표 자</td>
+						<td><input size="15px"></td>
+						<td class="tdcolor">담 당 자</td>
+						<td><input size="15px"></td>
+					</tr>
+					<tr>
+						<td class="tdcolor">전화번호</td>
+						<td><input size="15px"></td>
+						<td rowspan="2" class="tdcolor">사 업 장<br>주　　소</td>
+						<td colspan="3" rowspan="2"><input size="5px">
+						<button type="submit">우편번호검색</button><br>
+						<input size="50px"><br>상세주소
+						<input size="40px"></td>
+					</tr>
+					<tr>
+						<td class="tdcolor">FAX번호</td>
+						<td><input size="15px"></td>
+					</tr>
+				</table></p>
+			</figure>
+				
+			<figure>
+			<figcaption><class="font">◎구인사항</figcaption>
+				<p><table id="tb2" align="center">
+					<tr>
+						<td class="tdcolor">고용형태</td>
+						<td><input type="radio">정규직 |
+						<input type="radio">계약직</td>
+						<td class="tdcolor">성　별</td>
+						<td><input type="radio">남 |
+						<input type="radio">여 |
+						<input type="radio">무관</td>
+						<td class="tdcolor">인　원</td>
+						<td>( <input size="15px"> )명</td>
+					</tr>
+					<tr>
+						<td class="tdcolor">계약기간</td>
+						<td><input size="15px"></td>
+						<td class="tdcolor">고용보험</td>
+						<td><input type="radio">가입 |
+						<input type="radio">미가입</td>
+						<td class="tdcolor">근무지역</td>
+						<td><input size="15px"></td>
+					</tr>
+					<tr>
+						<td class="tdcolor">급　여</td>
+						<td><input type="radio">월급여<br>
+						<input type="radio">연봉( <input size="15px"> )만원</td>
+						<td class="tdcolor">교대근무<br>(여/부)</td>
+						<td><input size="15px"></td>
+						<td class="tdcolor">최종학력</td>
+						<td><input type="radio">고졸 |
+						<input type="radio">초대졸<br>
+						<input type="radio">대졸 |
+						<input type="radio">무관</td>
+					</tr>
+					<tr>
+						<td class="tdcolor">제출서류</td>
+						<td><input size="15px"></td>
+						<td class="tdcolor">근무시간</td>
+						<td><input size="15px"></td>
+						<td class="tdcolor">소지자격</td>
+						<td><input size="15px"></td>
+					</tr>
+					<tr>
+						<td class="tdcolor">주요업무내용<br>및<br>기타사항</td>
+						<td colspan="5"><textarea cols="100" rows="7"></textarea></td>
+					</tr>
+					<tr>
+						<td class="tdcolor">첨부파일</td>
+						<td colspan="5"><button type="submit">파일선택</button>
+						<span class="span">선택된 파일 없음</span></td>
+					</tr>
+				</table></p>
+			</figure>
+		</div><br>
+		<div align="center">
+			<button type="submit" class="but1">구인신청</button>
+			<button type="submit" class="but2">취소하기</button>
+		</div>
+	</div>
+</body>
+</html>

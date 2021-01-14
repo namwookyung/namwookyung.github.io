@@ -1,0 +1,37 @@
+<html language="ko">
+<head>
+<meta charset="UTF-8">
+<title>폼 태그</title>
+<body>
+<form action="/cgi-bin/formmail.cgi" method="post">
+<p>이름 : <input type="text" name="user_name" size="20"></p>
+<p><font size="2">readonly가 지정되지 않은 경우</font><br>
+<textarea name="sample" rows="3" cols="25"></textarea></p>
+
+<p><font size="2">readonly를 지정했을 때</font><br>
+<textarea name="sample" rows="3" cols="25" readonly>
+글 입력이 안되죠?!</textarea></p>
+
+<p><font size="2">비밀번호1 : </font>
+<input type="password" name="pswd1" size="10"></p>
+<p><font size="2">비밀번호2 : </font>
+<input type="password" name="pswd2" size="10" value="itposco"></p>
+
+<p><font size="2">기본적인 버튼<br>
+<input type="submit">
+<input type="reset">
+<p><font size="2">레이블 지정한 버튼</font><br>
+<input type="submit" value="전송하기">
+<input type="reset" value="다시쓰기"></p>
+
+<button type="submit"><font size="3"><b>전송</b></font></button>&nbsp;
+<button type="reset"><font size="3"><b>취소</b></font></button>&nbsp;
+<button type="button"><font size="3"><b>일반단추</b></font></button>
+<p><button type="submit"><img src="image/icon1.jpg"><p>전송</button>
+<img src="image/icon2.jpg">
+<img src="image/icon3.jpg">
+
+</form>
+
+</body>
+</html>

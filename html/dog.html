@@ -1,0 +1,103 @@
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>애견분양</title>
+<style>
+	a {
+		text-decoration:none;
+		color:white;
+	}
+	img {
+		width:100%;
+		height:400px;
+	}
+	
+	#section{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	
+	#section div{
+		width:400px;
+	}
+	
+	header ul {
+		display:flex;
+		list-style:none;
+		background:black;
+		color:white;
+		font-size:18px;
+		justify-content:center;
+		height:70px;
+	}
+	
+	header ul li {
+		margin:20px;
+	}
+	
+	header ul li:hover {
+		font-size:20px;
+	}
+	
+	
+	@media all and (max-width:810px) {
+		#section div {
+			width:100%;
+		}
+	}
+	@media all and (min-width:810px) and (max-width:1220px) {
+		#section div {
+			width:49%;
+		}
+	}
+	@media all and (min-width:1220px) {
+		#section div {
+			width:33%;
+		}
+	}
+</style>
+</head>
+<body>
+	<div>
+		<header>
+			<div>
+				<ul>
+					<li><a href="dog2.html">사이트 소개</a></li>
+					<li><a href="dog.html">애견분양</a></li>
+					<li><a href="dog3.html">고객센터</a></li>
+					<li><a href="dog1.html">애견자랑</a></li>
+				</ul>
+			</div>
+		</header>
+		<section id="section">
+			<div>
+				<img src="image/dog1.jpg">
+					<ul>
+						<li>견종 : 리트리버</li>
+						<li>성별 : 여자</li>
+						<li>나이 : 1살</li>
+						<li>분양가 : 상담 후 협의</li>
+					</ul>
+			</div>
+			<div>
+				<img src="image/dog2.jpg">
+					<ul>
+						<li>견종 : 리트리버</li>
+						<li>성별 : 여자</li>
+						<li>나이 : 1살</li>
+						<li>분양가 : 상담 후 협의</li>
+					</ul>
+			</div>
+			<div>
+				<img src="image/dog3.jpg">
+					<ul>
+						<li>견종 : 리트리버</li>
+						<li>성별 : 남자</li>
+						<li>나이 : 1살</li>
+						<li>분양가 : 상담 후 협의</li>
+					</ul>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

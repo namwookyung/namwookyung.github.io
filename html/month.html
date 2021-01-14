@@ -1,0 +1,195 @@
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>달력</title>
+	<style>
+		.tb1 {
+			border:1px solid gray;
+			border-collapse:collapse;
+			table-layout:fixed;
+			width:800px;
+			text-align:center;
+			vertical-align:center;
+		}
+		.tb2 {
+			border:1px solid gray;
+			border-collapse:collapse;
+			width:800px;
+			height:800px;
+		}
+		.tb2 td {
+			width:100px;
+			height:80px;
+		}
+		th, td {
+			border:1px solid gray;
+		}
+		tr {
+			vertical-align:top;
+		}
+		.tr1 {
+			height:15px;
+		}
+		.tb2 td:hover {
+			background:skyblue;
+		}
+		.b {
+			color:blue;
+		}
+		select {
+			border:none;
+			font-size:25px;
+			font-weight:bold;
+			vertical-align:center;
+		}
+		label {
+			float:right;
+			font-size:18px;
+		}
+		.d {
+			background-color:skyblue;
+		}
+		.e {
+			background-color:blue;
+		}
+		.c {
+			color:red;
+		}
+		a {
+			text-decoration:none;
+		}
+		small {
+			float:right;
+			color:lightgray;
+		}
+	</style>
+</head>
+<body>
+	<h3>달력정보</h3>
+	<nav>
+		<table class="tb1">
+			<tr class="tr1">
+				<td class="e">달력</td>
+				<td class="d">양음력변환</td>
+				<td class="d">날짜계산</td>
+				<td class="d">전역일계산</td>
+				<td class="d">만나이계산</td>
+			</tr>
+			<tr>
+				<td colspan="5">&nbsp;
+					<form align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<button type="button">오늘</button>
+						<button type="button"><</button>
+						<select>
+								<option>2020.08</option>
+								<option>2020.09</option>
+						</select>
+						<button type="button">></button>
+						<label><input type="checkbox">기념일</label>
+						<label><input type="checkbox">손없는날</label>
+						<label><input type="checkbox">음력</label>
+					</form>
+				</td>
+			</tr>
+		</table>
+	</nav>
+	<table class="tb2">
+		<tr class="tr1">
+			<th>일</th>
+			<th>월</th>
+			<th>화</th>
+			<th>수</th>
+			<th>목</th>
+			<th>금</th>
+			<th>토</th>
+		</tr>
+		<tr class=w>
+			<td><font color="lightgray">26</td>
+			<td><font color="lightgray">27</td>
+			<td><font color="lightgray">28</td>
+			<td><font color="lightgray">29</td>
+			<td><font color="lightgray">30</td>
+			<td><font color="lightgray">31</td>
+			<td>1</td>
+		</tr>
+		<tr class=w>
+			<td><font color="red">2</td>
+			<td>3</td>
+			<td>4<small>음 6.15</small><p class=b>
+			<a href="https://search.naver.com/search.naver?sm=
+			tab_hty.top&where=nexearch&query=%EC%9C%A0%EB%91%90%
+			EC%A0%88&oquery=%EB%A7%90%EB%B3%B5&tqi=U0mnhsprvxsss
+			eWS93Zssssssjh-154331">유두절</a></p></td>
+			<td>5</td>
+			<td>6</td>
+			<td>7<p class=b>
+			<a href="https://search.naver.com/search.naver?sm=
+			tab_hty.top&where=nexearch&query=%EC%9E%85%EC%B6%94
+			&oquery=%EC%9C%A0%EB%91%90%EC%A0%88&tqi=U0mfDwprvxs
+			ssft9Hz0ssssstFw-319548">입추</a></p></td>
+			<td>8</td>
+		</tr>
+		<tr class=w>
+			<td><font color="red">9</td>
+			<td>10</td>
+			<td>11</td>
+			<td>12</td>
+			<td>13</td>
+			<td>14<p class=b>
+			<a href="https://search.naver.com/search.naver?where=
+			nexearch&query=%EC%9D%BC%EB%B3%B8%EA%B5%B0%20%EC%9C%84%
+			EC%95%88%EB%B6%80%20%ED%94%BC%ED%95%B4%EC%9E%90%20%EA%
+			B8%B0%EB%A6%BC%EC%9D%98%20%EB%82%A0&sm=tab_etc&mra=bkI3">
+			일본군…</a></p></td>
+			<td>15<font color="red"><p class=c>
+				<a href="https://search.naver.com/search.naver?sm=
+				tab_hty.top&where=nexearch&query=%EA%B4%91%EB%B3%
+				B5%EC%A0%88&oquery=%EB%8B%AC%EB%A0%A5&tqi=U0mcWdp
+				0J1ZssLQ1nDdssssstLs-313386">광복절</a></p><p class=b>
+				<a href="https://search.naver.com/search.naver?sm=
+				tab_hty.top&where=nexearch&query=%EB%A7%90%EB%B3%
+				B5&oquery=%EA%B4%91%EB%B3%B5%EC%A0%88&tqi=U0mn7sp
+				rvmZsssZzJkwsssssswG-007433">말복</a></p></td>
+		</tr>
+		<tr class=w>
+			<td><font color="red">16</td>
+			<td><font color="red">17</font><br>
+			<a href="https://search.naver.com/search.naver?where=
+			nexearch&query=%EC%9E%84%EC%8B%9C%EA%B3%B5%ED%9C%B4%EC%
+			9D%BC&sm=tab_etc&mra=bkI3" class="c">임시공휴일</a></p></td>
+			<td>18</td>
+			<td>19<small>음 7.1</small></td>
+			<td>20</td>
+			<td>21</td>
+			<td>22</td>
+		</tr>
+		<tr class=w>
+			<td><font color="red">23<p class=b>
+			<a href="https://search.naver.com/search.naver?where=
+			nexearch&query=%EC%B2%98%EC%84%9C&sm=tab_etc&ie=utf8">
+			처서</a></p></td>
+			<td>24</td>
+			<td>25<p class=b>
+			<a href="https://search.naver.com/search.naver?where=
+			nexearch&query=%EC%B9%A0%EC%84%9D&sm=tab_etc&ie=utf8">
+			칠석</p></td>
+			<td>26</td>
+			<td>27</td>
+			<td>28</td>
+			<td>29</td>
+		</tr>
+		<tr class=w>
+			<td><font color="red">30</td>
+			<td>31</td>
+			<td><font color="lightgray">1</td>
+			<td><font color="lightgray">2</td>
+			<td><font color="lightgray">3</td>
+			<td><font color="lightgray">4</td>
+			<td><font color="lightgray">5</td>
+		</tr>
+	</table>
+</body>
+</html>
