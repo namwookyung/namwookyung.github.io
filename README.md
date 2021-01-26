@@ -1,3 +1,3 @@
-# <https://namwookyung.github.io/>
+# <namwookyung.github.io>
 
 hello
