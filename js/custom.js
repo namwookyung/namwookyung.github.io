@@ -18,7 +18,7 @@ $(function(){
 		if (t < $("#career").offset().top) {
 			$("nav li:eq(0)").addClass("active");
 			index = 0;
-		} else if (t < $("#portfolio").offset().top) {
+		} else if (t < $("#project").offset().top) {
 			$("nav li:eq(1)").addClass("active");
 			index = 1;
 		} else if (t < $("#contact").offset().top) {
