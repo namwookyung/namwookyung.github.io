@@ -15,13 +15,13 @@ $(function(){
 		var t = $(this).scrollTop();
 		var index = 0;
 		$("nav li").removeClass("active");
-		if (t < $("#first").offset().top) {
+		if (t < $("#intro").offset().top) {
 			$("nav li:eq(0)").addClass("active");
 			index = 0;
-		} else if (t < $("#portfolio").offset().top) {
+		} else if (t < $("#design").offset().top) {
 			$("nav li:eq(1)").addClass("active");
 			index = 1;
-		} else if (t < $("#contact").offset().top) {
+		} else if (t < $("#development").offset().top) {
 			$("nav li:eq(2)").addClass("active");
 			index = 2;
 		} else {
