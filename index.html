@@ -39,7 +39,7 @@
 	</nav>
 	
 	<section class="container mt-5" id="home"> <!-- main section -->
-		<div class="text-center" style="padding-top: 40px;">
+		<div class="text-center" style="padding-top: 40px; padding-bottom:40px;">
 			<img src="./img/picture.jpg" class="img-fluid mb-3 rounded-circle"/>
 			<h2>남우경</h2>
 			<img src="./img/activity.svg" class="img-fluid mr-1"><span class="mr-2">프로그래머</span>
@@ -52,40 +52,81 @@
 		<div id="career" class="row mb-2"></div>
 	</section>
 	
-	<section class="bg-white text-dark mt-5 mb-3 pt-5 pb-4" id="career"> <!-- career section -->
-		<div class="row justify-content-center">
-			<div class="col-4 text-left mb-5" style="max-width: 450px;">
-				<h2>보유 자격증</h2>
-				<ul class="mt-2">	
-					<li class="mt-4">워드프로세서</li>
-					<li class="mt-4">문서실무사 4급</li>
-				</ul>
-			</div>
-			<div class="col-4 text-left mb-5" style="max-width: 450px;">
-				<h2>활용 능력</h2>
-				<ul class="mt-2">
-					<li class="mt-4">Java</li>
-					<li class="mt-4">HTML5</li>
-					<li class="mt-4">CSS3</li>
-					<li class="mt-4">JSP</li>
-					<li class="mt-4">jQuery</li>
-					<li class="mt-4">JavaScript</li>
-					<li class="mt-4">Bootstrap Framework</li>
-				</ul>
-			</div>
-		</div>
+	
+	<section class="bg-white" style="text-align:center; padding:20px;">
+				<section class="container mt-4">
+						<form>
+							<div class="container mt-3" style="max-width:900px;">
+								<div class="card-deck">
+									<div class="card" style="max-width:300px; border:none;">
+										<div class="col-4 text-left mb-5" style="max-width: 450px;">
+											<h2>보유 자격증</h2>
+											<ul class="mt-2">	
+												<li class="mt-4">워드프로세서</li>
+												<li class="mt-4">문서실무사 4급</li>
+											</ul>
+										</div>
+									</div>
+									<div class="card" style="max-width:100px; border:none;"></div>
+									<div class="card" style="border:none; text-align:left;">
+										<div class="col-4 text-left mb-5" style="max-width: 450px;">
+											<h2>활용 능력</h2>
+											<ul class="mt-2">
+												<li class="mt-4">Java</li>
+												<li class="mt-4">HTML5</li>
+												<li class="mt-4">CSS3</li>
+												<li class="mt-4">JSP</li>
+												<li class="mt-4">jQuery</li>
+												<li class="mt-4">JavaScript</li>
+												<li class="mt-4">Bootstrap Framework</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+				</section>
+			</section>
+	
+	
+<!-- 	<section class="bg-white text-dark mt-5 mb-3 pt-5 pb-4"> career section -->
+<!-- 		<div class="row justify-content-center"> -->
+<!-- 			<div class="col-4 text-left mb-5" style="max-width: 450px;"> -->
+<!-- 				<h2>보유 자격증</h2> -->
+<!-- 				<ul class="mt-2">	 -->
+<!-- 					<li class="mt-4">워드프로세서</li> -->
+<!-- 					<li class="mt-4">문서실무사 4급</li> -->
+<!-- 				</ul> -->
+<!-- 			</div> -->
+<!-- 			<div class="col-4 text-left mb-5" style="max-width: 450px;"> -->
+<!-- 				<h2>활용 능력</h2> -->
+<!-- 				<ul class="mt-2"> -->
+<!-- 					<li class="mt-4">Java</li> -->
+<!-- 					<li class="mt-4">HTML5</li> -->
+<!-- 					<li class="mt-4">CSS3</li> -->
+<!-- 					<li class="mt-4">JSP</li> -->
+<!-- 					<li class="mt-4">jQuery</li> -->
+<!-- 					<li class="mt-4">JavaScript</li> -->
+<!-- 					<li class="mt-4">Bootstrap Framework</li> -->
+<!-- 				</ul> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+<!-- 	</section> -->
+	
+	<section>
+		<div id="project" class="row mb-2"></div>
 	</section>
 	
-	<section class="mb-3 pt-4 pb-5" id="project"> <!-- project section -->
+	<section class="mb-3 pt-4 pb-5"> <!-- project section -->
 		<div class="text-center">
 			<h2>Project</h2>
 		</div>
 		<div class="container mt-3" style="max-width: 900px;">
 			<div class="card-deck">
 				<div class="card">
-					<img class="card-img-top" src="./img/Main.jpg" />
+					<img class="card-img-top" src="./img/main.jpg" />
 					<div class="card-body">
-						<h4 class="card-title">PIT-A-PET</h4>
+						<h4 class="card-title"><a href="http://embed.swq.co.kr/pitAPet" style="color:#F57F17;">PIT-A-PET</a></h4>
 						<p class="card-text" style="text-align: justify">영남기술직업전문학교에서 Java & JSP 웹 및 임베디드 프로그래밍 교육 과정 중 진행한 프로젝트</p>
 					</div>
 				</div>
@@ -107,40 +148,44 @@
 		</div>
 	</section>
 	
-	<section class="bg-white" id="contact"> <!-- contact section -->
+	<section>
+		<div id="contact" class="row mb-2"></div>
+	</section>
+	
+	<section class="bg-white"> <!-- contact section -->
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
 					<h2 class="mt-5">Programming Language</h2>
 					<div class="d-flex flex-row">
-						<div class="p-3 align-self-start">
+						<div class="p-2 align-self-start">
 							<img src="./img/activity.svg"/>
 						</div>
-						<div class="p-3 align-self-end" style="text-align: justify">
+						<div class="p-2 align-self-end" style="text-align: justify">
 							JSP
 						</div>
 					</div>
 					<div class="d-flex flex-row">
-						<div class="p-3 align-self-start">
+						<div class="p-2 align-self-start">
 							<img src="./img/activity.svg"/>
 						</div>
-						<div class="p-3 align-self-end" style="text-align: justify">
+						<div class="p-2 align-self-end" style="text-align: justify">
 							JavaScript
 						</div>
 					</div>
 					<div class="d-flex flex-row">
-						<div class="p-3 align-self-start">
+						<div class="p-2 align-self-start">
 							<img src="./img/activity.svg"/>
 						</div>
-						<div class="p-3 align-self-end" style="text-align: justify">
+						<div class="p-2 align-self-end" style="text-align: justify">
 							MySQL
 						</div>
 					</div>
 					<div class="d-flex flex-row">
-						<div class="p-3 align-self-start">
+						<div class="p-2 align-self-start">
 							<img src="./img/activity.svg"/>
 						</div>
-						<div class="p-3 align-self-end" style="text-align: justify">
+						<div class="p-2 align-self-end" style="text-align: justify">
 							Java
 						</div>
 					</div>
@@ -152,31 +197,24 @@
 							<h2>Easy Contact</h2>
 							<form>
 								<div class="d-flex flex-row">
-									<div class="p-1 align-self-start">
+									<div class="p-2 align-self-start">
 										<img src="./img/box.svg" />
 									</div>
-									<div class="p-1 align-self-end" style="text-align: justify">
+									<div class="p-2 align-self-end" style="text-align: justify">
 										E-mail<br>wk.nam.dev@gmail.com</div>
 								</div>
 								<div class="d-flex flex-row">
-									<div class="p-1 align-self-start">
+									<div class="p-2 align-self-start">
 										<img src="./img/box.svg" />
 									</div>
-									<div class="p-1 align-self-end" style="text-align: justify">
+									<div class="p-2 align-self-end" style="text-align: justify">
 										Mobile<br>010-3390-9743</div>
 								</div>
 								<div class="d-flex flex-row">
-									<div class="p-1 align-self-start">
+									<div class="p-2 align-self-start">
 										<img src="./img/box.svg" />
 									</div>
-									<div class="p-1 align-self-end" style="text-align: justify" >
-										Project<br><a href="http://embed.swq.co.kr/pitAPet" style="color:black">http://embed.swq.co.kr/pitAPet</a></div>
-								</div>
-								<div class="d-flex flex-row">
-									<div class="p-1 align-self-start">
-										<img src="./img/box.svg" />
-									</div>
-									<div class="p-1 align-self-end" style="text-align: justify">
+									<div class="p-2 align-self-end" style="text-align: justify">
 										Github<br><a href="https://github.com/namwookyung" style="color:black">http://github.com/namwookyung</a></div>
 								</div>
 							</form>
@@ -197,8 +235,10 @@
 							Seoul Nowongu</p>
 					</div>
 					<div class="footer-col col-md-4">
-						<h3 style="color:white;">Project</h3>
-						<a href="project.html" class="btn btn-light m-6">more</a>
+						<h3 style="color:white;">PIT-A-PET Project</h3>
+						<a href="project.html" class="btn btn-light m-2">Blog Page</a>
+						<a href="http://github.com/namwookyung/pitAPet" class="btn btn-light m-2">Github</a>
+						<a href="http://embed.swq.co.kr/pitAPet" class="btn btn-light m-2">Homepage</a>
 					</div>
 					<div class="footer-col col-md-4">
 						<h3 style="color: white;">Message</h3>
